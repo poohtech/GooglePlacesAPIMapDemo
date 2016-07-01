@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--  <style name="AppTheme.NoActionBar">
+          <item name="windowActionBar">false</item>
+          <item name="windowNoTitle">true</item>
+      </style>-->
+    <!--
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+    <style name="edtSearchLocation">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColorHint">#80FFFFFF</item>
+        <item name="android:background">#999999</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:tag">100</item>
+        <item name="android:layout_weight">0.25</item>
+    </style>
+    <!-- TextView Search : Add Property Step 3 Activity :tag 100
+    -->
+    <style name="txtSearchBtn">
+        <item name="android:layout_weight">0.75</item>
+        <item name="android:tag">100</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <!-- Fragment for map : Add Property Step 4 Activity :tag 100
+    -->
+    <style name="fragmentMap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">400dp</item>
+    </style>
+</resources>
